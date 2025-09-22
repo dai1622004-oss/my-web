@@ -1,11 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <title>Test Web</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Đặng Đức Đại — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Xin chào, web đã chạy thành công!</h1>
-  <p>Đây là web chạy trên GitHub Pages.</p>
+  <main class="container">
+    <aside class="card">
+      <div class="photo-wrap">
+        <!-- Thay đường dẫn bên dưới bằng images/me.jpg hoặc URL của bạn -->
+        <img src="images/me.jpg" alt="Ảnh Đặng Đức Đại" id="profilePhoto" />
+      </div>
+      <h1>Đặng Đức Đại</h1>
+      <p class="role">Web Developer / Freelancer</p>
+      <p class="bio">Xin chào! Mình làm website, lập trình và xây dựng portfolio.</p>
+      <nav class="links">
+        <a href="#projects">Dự án</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+    </aside>
+
+    <section class="content">
+      <section id="projects">
+        <h2>Dự án tiêu biểu</h2>
+        <ul>
+          <li>Project A — Mô tả ngắn</li>
+          <li>Project B — Mô tả ngắn</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Liên hệ</h2>
+        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      </section>
+    </section>
+  </main>
 </body>
 </html>
